@@ -1,0 +1,28 @@
+Introduction
+- 1. Languages
+  = C, C++, Java, C#, Python, JS, ...
+
+- 2. Topics
+  = 1. List of Data Structures (= Physical Data Structure)
+    -> 1. Arrays, Matrics, Linked List
+    -> 2. Define how the data is arranged in the memory (arrangement)
+    -> 3. Ex) int a[10]; int b[5][5];
+
+  = 2. Logical Data Structure
+    -> 1. Stack, Queue, Trees, Graph, Hashing
+    -> 2. Define how the data can be utilized, how the arrangement should be utilized (utilization)
+
+  = Arrays, Matrics, Linked List, Stack, Queue, Trees, Graph, Hashing, Recursion, Sortings
+
+- 3. Memory and CPU
+  = 1. CPU
+  = 2. Memory
+    -> 1. Data
+       => Data Structure 
+	  -- 1. Best utilized by the program, efficiently utilized by the program
+	  -- 2. Arrangement of data
+
+    -> 2. Program Code
+       => Perform operations on the data
+
+- 4. 
