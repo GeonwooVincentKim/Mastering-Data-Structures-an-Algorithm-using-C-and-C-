@@ -25,4 +25,13 @@ Introduction
     -> 2. Program Code
        => Perform operations on the data
 
-- 4. 
+- 4. Level of study data structures
+  = 1. What data structures are, and how they work (Basic)
+  = 2. Know how they work in detail and you are able to do the analysis
+    -> 1. Understand in depth, operations that are performed by them
+    -> 2. How those operations are performed also
+    -> 3. Internal detail, analyze them basd on the time and the space complexities
+
+  = 3. You know everything in detail and also you know how to code them
+    -> You can develop your own data structures
+
