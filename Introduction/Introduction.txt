@@ -1,6 +1,11 @@
 Introduction
 - 1. Languages
-  = C, C++, Java, C#, Python, JS, ...
+  = 1. C
+  = 2. STL
+    -> C++
+
+  = 3. Collections Class
+    -> Java, C#, Python, JS (DOM Objects)...
 
 - 2. Topics
   = 1. List of Data Structures (= Physical Data Structure)
