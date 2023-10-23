@@ -1,2 +1,19 @@
 Arrays
-- 1. 
+- 1. example - int A[5];
+  = 1. 5 integers, array name = A, access them with name A
+  = 2. 5 integer spaces, indices will be 0 1 2 3 4 = 5 locations
+  = 3. if assume integer is taking 2 bytes x 5 locations = 10 bytes
+    -> 2 bytes each location
+
+  = 4. a[0] = 27;  a[1] = 10;
+    -> a[0, 1, 2, 3, 4]
+        (27, 10)
+
+- 2. Main memory
+  = 1. Heap
+  = 2. Stack
+  = 3. Main
+    -> array declared = a[||||]
+
+  = 4. Code section
+    -> variable declared
