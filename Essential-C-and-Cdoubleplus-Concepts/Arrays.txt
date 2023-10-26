@@ -13,7 +13,7 @@ Arrays
   = 1. Heap
   = 2. Stack
   = 3. Main
-    -> array declared = a[||||]
+    -> array declared = a[||||] (Ex - a[10|5|8|3|9])
 
   = 4. Code section
     -> variable declared

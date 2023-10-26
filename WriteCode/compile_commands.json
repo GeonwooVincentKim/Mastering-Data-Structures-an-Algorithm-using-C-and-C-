@@ -1,0 +1,5 @@
+[{
+  "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\CodePractice\\test.c",
+  "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\CodePractice",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\CodePractice\\test.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\CodePractice\\test.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]
