@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="WriteCode" Database="" Version="10000">
-  <Project Name="ArrayPractice" Path="CodePractice/CodePractice.project" Active="Yes"/>
+  <Project Name="ArrayPractice" Path="CodePractice/CodePractice.project" Active="No"/>
+  <Project Name="BaekTest" Path="BaekTest/BaekTest.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="ArrayPractice" ConfigName="Debug"/>
+      <Project Name="BaekTest" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="ArrayPractice" ConfigName="Release"/>
+      <Project Name="BaekTest" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
