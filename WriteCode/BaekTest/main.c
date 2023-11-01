@@ -2,11 +2,12 @@
 
 int main(int argc, char **argv)
 {
-    printf("|\\_/|\n");
-    printf("|q p|   /}\n");
-    printf("( 0 )\"\"\"\\\n");
-    printf("|\"^\"`    |\n");
-    printf("||_/=\\\\__|");
+    printf("         ,r'\"7\n");
+    printf("r`-_   ,'  ,/\n");
+    printf(" \\. \". L_r'\n");
+    printf("   `~\\/\n");
+    printf("      |\n");
+    printf("      |\n");
 
 	return 0;
 }
