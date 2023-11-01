@@ -2,9 +2,11 @@
 
 int main(int argc, char **argv)
 {
-    printf("\\    /\\\n");
-    printf(" )  ( ')\n");
-    printf("(  /  )\n");
-    printf(" \\(__)|");
+    printf("|\\_/|\n");
+    printf("|q p|   /}\n");
+    printf("( 0 )\"\"\"\\\n");
+    printf("|\"^\"`    |\n");
+    printf("||_/=\\\\__|");
+
 	return 0;
 }
