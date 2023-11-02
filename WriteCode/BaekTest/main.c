@@ -2,12 +2,9 @@
 
 int main(int argc, char **argv)
 {
-    printf("         ,r'\"7\n");
-    printf("r`-_   ,'  ,/\n");
-    printf(" \\. \". L_r'\n");
-    printf("   `~\\/\n");
-    printf("      |\n");
-    printf("      |\n");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a + b);
 
 	return 0;
 }
