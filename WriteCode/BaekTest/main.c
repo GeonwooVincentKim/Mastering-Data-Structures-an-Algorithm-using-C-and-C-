@@ -1,10 +1,15 @@
 #include <stdio.h>
 
-int main(int argc, char **argv)
-{
-    long long a, b, c;
-    scanf("%lld %lld %lld", &a, &b, &c);
-    printf("%lld", a + b + c);
-
-	return 0;
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+        
+    if (a < b) 
+        printf("<");
+    else if (a > b)
+        printf(">");
+    else
+        printf("==");
+    
+    return 0;
 }
