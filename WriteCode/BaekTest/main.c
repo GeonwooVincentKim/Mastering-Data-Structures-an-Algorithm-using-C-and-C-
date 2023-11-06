@@ -5,12 +5,16 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    int i, result = 1;
-    for (i = 2; i <= n; i++) {
-        result = result * i;
+    int i, sum = 0;
+    char array[n];
+    
+    scanf("%s", array);
+    
+    for (i = 0; i < n; i++) {
+        sum += array[i] - '0';
     }
     
-    printf("%d", result);
+    printf("%d", sum);
     
     return 0;
 }
