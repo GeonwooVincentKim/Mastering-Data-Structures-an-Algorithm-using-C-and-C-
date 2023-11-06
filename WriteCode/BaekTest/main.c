@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    int a;
-    scanf("%d", &a);
+    long long int n, m;
+    scanf("%lld %lld", &n, &m);
     
-    if ((a % 4 == 0 && a % 100 != 0) || a % 400 == 0)
-        printf("1");
+    if (n > m)
+        printf("%lld", n - m);
     else
-        printf("0");
+        printf("%lld", m - n);
     
     return 0;
 }
