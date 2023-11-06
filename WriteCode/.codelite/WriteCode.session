@@ -6,7 +6,7 @@
     <TabInfo>
       <wxString Value="E:\Study\C\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\WriteCode\BaekTest\main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="2" Name="CurrentLine"/>
+      <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

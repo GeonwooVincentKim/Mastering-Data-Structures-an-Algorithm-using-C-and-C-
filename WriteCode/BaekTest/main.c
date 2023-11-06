@@ -2,22 +2,16 @@
 #include <stdlib.h>
 
 int main() {
-    int count = 0;
-    char ch;
-    char pch=' ';
-    while(1)  {
-        ch=getchar();
-        
-        if(ch== '\n' || ch==EOF)
-        {   
-            break;
-        }
-        else if(pch==' ' && ch!=' ')
-             count++;
-             
-        pch=ch;
+    int t;
+    scanf("%d", &t);
+    
+    int i, a, b, sum = 0;
+    for (i = 0; i < t; i++) {
+        scanf("%d %d", &a, &b);
+        sum = a + b;
+        printf("%d\n", sum);
+        sum = 0;
     }
-    printf("%d\n", count);
     
     return 0;
 }
