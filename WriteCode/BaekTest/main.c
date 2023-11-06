@@ -2,19 +2,22 @@
 #include <stdlib.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    
-    int i, sum = 0;
-    char array[n];
-    
-    scanf("%s", array);
-    
-    for (i = 0; i < n; i++) {
-        sum += array[i] - '0';
+    int count = 0;
+    char ch;
+    char pch=' ';
+    while(1)  {
+        ch=getchar();
+        
+        if(ch== '\n' || ch==EOF)
+        {   
+            break;
+        }
+        else if(pch==' ' && ch!=' ')
+             count++;
+             
+        pch=ch;
     }
-    
-    printf("%d", sum);
+    printf("%d\n", count);
     
     return 0;
 }
