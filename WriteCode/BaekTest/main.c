@@ -2,13 +2,26 @@
 #include <stdlib.h>
 
 int main() {
-    long long int n, m;
-    scanf("%lld %lld", &n, &m);
+    int t;
+    scanf("%d", &t);
     
-    if (n > m)
-        printf("%lld", n - m);
-    else
-        printf("%lld", m - n);
+    int h, w, n;
+    int x, y;
     
+    int i;
+    for (i = 0; i < t; ++i){
+        scanf("%d %d %d", &h, &w, &n);
+        
+        x = n / h + 1;
+        y = n % h;
+        
+        if (y == 0) {
+            y = h;
+            x -= 1;
+        }
+        
+        printf("%d%02d\n", y, x);
+    }
+ 
     return 0;
 }
