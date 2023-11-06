@@ -5,13 +5,12 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    int i;
-    for (i = 0; i < n; i++) {
-        if ((i + 1) == n)
-            printf("%d", (i + 1));
-        else
-            printf("%d\n", (i + 1));
+    int i, result;
+    for (i = n; i > 0; i--) {
+        result = result * i;
     }
- 
+    
+    printf("%d", result);
+    
     return 0;
 }
