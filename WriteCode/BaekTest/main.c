@@ -1,12 +1,24 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    int t;
+    scanf("%d", &t);
     
-    int i;
-    for (i = 1; i <= 9; i++) {
-       printf("%d * %d = %d\n", n, i, n * i);
+    int i, r, j, k;
+    char s[1000];
+    
+    for (i = 0; i < t; i++) {
+        scanf("%d %s", &r, s);
+        
+        for (j = 0; j < strlen(s); j++) {
+            for (k = 0; k < r; k++) {
+                printf("%c", s[j]);
+            }
+        }
+        
+        printf("\n");
+        
     }
     
     return 0;
