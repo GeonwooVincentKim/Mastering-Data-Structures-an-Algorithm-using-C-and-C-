@@ -1,25 +1,22 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     int t;
     scanf("%d", &t);
     
-    int i, r, j, k;
-    char s[1000];
+    int i, index, a = 0;
+    int arr[9];
     
-    for (i = 0; i < t; i++) {
-        scanf("%d %s", &r, s);
+    for (i = 0; i < 9; i++) {
+        scanf("%d", &arr[i]);
         
-        for (j = 0; j < strlen(s); j++) {
-            for (k = 0; k < r; k++) {
-                printf("%c", s[j]);
-            }
+        if (a < arr[i]) {
+            a = arr[i];
+            index = i;
         }
-        
-        printf("\n");
-        
     }
-    
+        
+    printf("%d\n%d", a, index + 1);
+
     return 0;
 }
