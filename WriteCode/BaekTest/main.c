@@ -1,22 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    char st[100];
+    int t;
+    scanf("%d", &t); 
     
-    int i;
-    int st[n];
-    int min, max;
-    
-    for (i = 0; i < n; i++) {
-        scanf("%d", &st[i]);
-    
-        if (i == 0) max = min = st[i];
-        if (st[i] > max) max = st[i];
-        if (st[i] < min) min = st[i];
+    int k;
+    for (k = 0; k < t; k++) {
+        scanf("%s", st);
+        char first_c, last_c;
+        
+        int i, length = 0;
+        for (i = 0; st[i] != '\0'; i++) {
+            first_c = st[0];
+            last_c = st[i];
+            length++;
+        }
+        
+//        printf("%d", length);
+        printf("%c%c\n", first_c, last_c);
     }
-    
-    printf("%d %d", min, max);
     
     return 0;
 }
