@@ -1,25 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int i, n;
-    int sum = 0, count = 0;
-    int sumArr[10];
+    int a, b;
+    scanf("%d", &a);
+    scanf("%d", &b);
     
-    for (i = 0; i < 10; i++) {
-        scanf("%d", &n);
-        sumArr[i] = (n % 42);
-    }
+    int line1st = b % 10 * a;
+    int line2nd = (b % 100) / 10 * a;
+    int line3rd = (b / 100) * a;
     
-    int j, k;
-    for (j = 0; j < 10; j++) {
-        count = 0;
-        for (k = 0; k < j; k++) {
-            if (sumArr[j] == sumArr[k]) count++;
-        }
-        
-        if (count == 0) sum += 1;
-    }
-    
-    printf("%d", sum);
-    return 0;
+    printf("%d\n%d\n%d\n%d", line1st, line2nd, line3rd, a * b);
 }
