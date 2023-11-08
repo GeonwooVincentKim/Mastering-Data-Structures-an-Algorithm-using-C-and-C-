@@ -1,4 +1,8 @@
 [{
+  "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray\\main.c",
+  "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestElementary\\main.c",
   "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestElementary",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestElementary\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestElementary\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"

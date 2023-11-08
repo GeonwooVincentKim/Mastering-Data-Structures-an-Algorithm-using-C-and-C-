@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ BaekTestElementary - Debug ]----------"
-	@cd "BaekTestElementary" && "$(MAKE)" -f  "BaekTestElementary.mk"
+	@echo "----------Building project:[ BaekTestArray - Debug ]----------"
+	@cd "BaekTestArray" && "$(MAKE)" -f  "BaekTestArray.mk"
 clean:
-	@echo "----------Cleaning project:[ BaekTestElementary - Debug ]----------"
-	@cd "BaekTestElementary" && "$(MAKE)" -f  "BaekTestElementary.mk" clean
+	@echo "----------Cleaning project:[ BaekTestArray - Debug ]----------"
+	@cd "BaekTestArray" && "$(MAKE)" -f  "BaekTestArray.mk" clean
