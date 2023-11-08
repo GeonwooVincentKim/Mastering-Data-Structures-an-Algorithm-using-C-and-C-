@@ -1,19 +1,25 @@
 #include <stdio.h>
-#include <ctype.h>
 
 int main() {
-    char input[100];
-    int count = 0;
+    int i, n;
+    int sum = 0, count = 0;
+    int sumArr[10];
     
-    gets(input);
-    while (input[count]) {
-        if (isupper(input[count])) input[count] = tolower(input[count]);
-        else if (islower(input[count])) input[count] = toupper(input[count]);
-
-        count++;
+    for (i = 0; i < 10; i++) {
+        scanf("%d", &n);
+        sumArr[i] = (n % 42);
     }
     
-    printf("%s", input);
+    int j, k;
+    for (j = 0; j < 10; j++) {
+        count = 0;
+        for (k = 0; k < j; k++) {
+            if (sumArr[j] == sumArr[k]) count++;
+        }
+        
+        if (count == 0) sum += 1;
+    }
     
+    printf("%d", sum);
     return 0;
 }
