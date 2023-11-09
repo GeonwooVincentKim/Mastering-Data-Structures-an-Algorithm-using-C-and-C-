@@ -1,47 +1,37 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-//int strToIntConvertArr[100];
-int arrStrToInt[100];
 
 int main() {
+    int strToIntArr[26];
     char str[100];
     scanf("%s", str);
     
     int i;
-    for (i = 0; i <= sizeof(str); i++) {
-        arrStrToInt[i] = (int)str[i];
-        printf("%d\n", arrStrToInt[i]);
+    for (i = 0; i < 26; i++) 
+        strToIntArr[i] = -1;
+    
+    int j, k = 0;
+    for (k = 0; k <= str[k]; k++) {
+        j = str[k] - 'a';
+        if (strToIntArr[j] == -1) strToIntArr[j] = k;
     }
-    
-    printf("\n");
-    
-    int j, k;
-    for (j = 97; j < 123; j++) {
-//        arrStrToInt[j] - 'a';
-        for (k = 0; k < sizeof(arrStrToInt); k++) {
-            if (arrStrToInt[k] == j) {
-                printf("%d %d\n", arrStrToInt[j] - 'a', j);
-//                arrStrToInt[j] - 'a' = j;
-                break;
-            }
-        }
-        
-//        printf("\n");
-//        printf("%d ", arrStrToInt[j] - 'a');
-//        arrStrToInt[j % 97]++;
-    }
-    
-    for (i = 0; i < 26; i++) {
-        printf("%d", arrStrToInt[i]);
-    }
-    
-    
-    
-//    int i;
-//    for (i = 97; i < 123; i++) {
-//        
+
+//    while (str[k]) {
+//        j = str[k] - 'a';
+//        if (strToIntArr[j] == -1) strToIntArr[j] = k;
+//        k++;
 //    }
     
+    int i2;
+    for (i2 = 0; i2 < 26; ++i2)
+        printf("%d ", strToIntArr[i2]);
+        
+//    for (j = 0; j < 100; j++) {
+////        printf("%d ", str[j] - 97);
+//        
+//        k = str[j] - 97;
+//        if (strToIntArr[k] == -1) strToIntArr[
+//        printf("%d ", strToIntArr[k]);
+//    }
+
     return 0;
 }
