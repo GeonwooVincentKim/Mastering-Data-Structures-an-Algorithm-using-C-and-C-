@@ -1,25 +1,26 @@
 #include <stdio.h>
 
 int main() {
-    char st[100];
-    int t;
-    scanf("%d", &t); 
+    int n;
+    int v, count = 0;
+    int arr[100];
     
-    int k;
-    for (k = 0; k < t; k++) {
-        scanf("%s", st);
-        char first_c, last_c;
-        
-        int i, length = 0;
-        for (i = 0; st[i] != '\0'; i++) {
-            first_c = st[0];
-            last_c = st[i];
-            length++;
-        }
-        
-//        printf("%d", length);
-        printf("%c%c\n", first_c, last_c);
+    scanf("%d", &n);
+    
+    int i;
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
     
+    scanf("%d", &v);
+    
+    int j;
+    for (j = 0; j < n; j++) 
+        if (arr[j] == v) {
+            count++;
+        }
+    }
+    
+    printf("%d", count);
     return 0;
 }
