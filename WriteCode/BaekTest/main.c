@@ -11,37 +11,29 @@ int main() {
     int i;
     for (i = 0; i <= sizeof(str); i++) {
         arrStrToInt[i] = (int)str[i];
-        printf("%d\n", arrStrToInt[i] - 97);
+        printf("%d\n", arrStrToInt[i]);
     }
     
     printf("\n");
     
-    int j, k, index;
-//    for (j = 97; j < 123; j++) {
-////        arrStrToInt[j] - 'a';
-//        for (k = 0; k < sizeof(arrStrToInt); k++) {
-//            if (arrStrToInt[k] == j) {
-//                printf("%d %d\n", arrStrToInt[j] - 'a', j);
-////                arrStrToInt[j] - 'a' = j;
-//                break;
-//            }
-//        }
-//        
-////        printf("\n");
-////        printf("%d ", arrStrToInt[j] - 'a');
-////        arrStrToInt[j % 97]++;
-//    }
-    for (j = 0; j < sizeof(arrStrToInt); j++) {
-        index = str[j];
+    int j, k;
+    for (j = 97; j < 123; j++) {
+//        arrStrToInt[j] - 'a';
+        for (k = 0; k < sizeof(arrStrToInt); k++) {
+            if (arrStrToInt[k] == j) {
+                printf("%d %d\n", arrStrToInt[j] - 'a', j);
+//                arrStrToInt[j] - 'a' = j;
+                break;
+            }
+        }
         
-        if (arrStrToInt[index] == -1) arrStrToInt[index] = j;
-//        else 
-//            arrStrToInt[index] = ;
-        printf("%d ", index);
+//        printf("\n");
+//        printf("%d ", arrStrToInt[j] - 'a');
+//        arrStrToInt[j % 97]++;
     }
     
     for (i = 0; i < 26; i++) {
-        printf("%d ", arrStrToInt[i]);
+        printf("%d", arrStrToInt[i]);
     }
     
     
