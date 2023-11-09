@@ -1,22 +1,55 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+//int strToIntConvertArr[100];
+int arrStrToInt[100];
 
 int main() {
-    int h, m;
-    scanf("%d %d", &h, &m);
+    char str[100];
+    scanf("%s", str);
     
-    if (m < 45 && m >= 0) {
-        m += 60;
-        m -= 45;
-        
-        if (h == 0) {
-            h = 23;
-        } else if (h >= 1 && h < 24){
-            h -= 1;
-        }
-    } else if (m >= 45 && m < 60) {
-        m -= 45;
+    int i;
+    for (i = 0; i <= sizeof(str); i++) {
+        arrStrToInt[i] = (int)str[i];
+        printf("%d\n", arrStrToInt[i] - 97);
     }
     
-    printf("%d %d", h, m);
+    printf("\n");
+    
+    int j, k, index;
+//    for (j = 97; j < 123; j++) {
+////        arrStrToInt[j] - 'a';
+//        for (k = 0; k < sizeof(arrStrToInt); k++) {
+//            if (arrStrToInt[k] == j) {
+//                printf("%d %d\n", arrStrToInt[j] - 'a', j);
+////                arrStrToInt[j] - 'a' = j;
+//                break;
+//            }
+//        }
+//        
+////        printf("\n");
+////        printf("%d ", arrStrToInt[j] - 'a');
+////        arrStrToInt[j % 97]++;
+//    }
+//    for (j = 0; j < sizeof(arrStrToInt); j++) {
+//        index = str[j];
+//        
+//        if (arrStrToInt[index] == -1) arrStrToInt[index] = j;
+////        else 
+////            arrStrToInt[index] = ;
+//        printf("%d ", index);
+//    }
+    
+//    for (i = 0; i < 26; i++) {
+//        printf("%d ", arrStrToInt[i]);
+//    }
+    
+    
+    
+//    int i;
+//    for (i = 97; i < 123; i++) {
+//        
+//    }
+    
     return 0;
 }
