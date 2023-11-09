@@ -10,28 +10,20 @@ int main() {
         strToIntArr[i] = -1;
     
     int j, k = 0;
-    for (k = 0; k <= str[k]; k++) {
-        j = str[k] - 'a';
-        if (strToIntArr[j] == -1) strToIntArr[j] = k;
-    }
-
-//    while (str[k]) {
+//    for (k = 0; k <= str[k]; k++) {
 //        j = str[k] - 'a';
 //        if (strToIntArr[j] == -1) strToIntArr[j] = k;
-//        k++;
 //    }
+
+    while (str[k]) {
+        j = str[k] - 'a';
+        if (strToIntArr[j] == -1) strToIntArr[j] = k;
+        k++;
+    }
     
     int i2;
     for (i2 = 0; i2 < 26; ++i2)
         printf("%d ", strToIntArr[i2]);
-        
-//    for (j = 0; j < 100; j++) {
-////        printf("%d ", str[j] - 97);
-//        
-//        k = str[j] - 97;
-//        if (strToIntArr[k] == -1) strToIntArr[
-//        printf("%d ", strToIntArr[k]);
-//    }
 
     return 0;
 }
