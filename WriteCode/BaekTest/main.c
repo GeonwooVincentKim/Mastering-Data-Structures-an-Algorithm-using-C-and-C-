@@ -1,26 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    int v, count = 0;
-    int arr[100];
+    int h, m;
+    scanf("%d %d", &h, &m);
     
-    scanf("%d", &n);
-    
-    int i;
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-    
-    scanf("%d", &v);
-    
-    int j;
-    for (j = 0; j < n; j++) 
-        if (arr[j] == v) {
-            count++;
+    if (m < 45 && m >= 0) {
+        m += 60;
+        m -= 45;
+        
+        if (h == 0) {
+            h = 23;
+        } else if (h >= 1 && h < 24){
+            h -= 1;
         }
+    } else if (m >= 45 && m < 60) {
+        m -= 45;
     }
     
-    printf("%d", count);
+    printf("%d %d", h, m);
     return 0;
 }

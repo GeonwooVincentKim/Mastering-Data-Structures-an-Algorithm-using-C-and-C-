@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="WriteCode" Database="" Version="10000">
   <Project Name="ArrayPractice" Path="CodePractice/CodePractice.project" Active="No"/>
-  <Project Name="BaekTest" Path="BaekTest/BaekTest.project" Active="No"/>
+  <Project Name="BaekTest" Path="BaekTest/BaekTest.project" Active="Yes"/>
   <Project Name="BaekTestElementary" Path="BaekTestElementary/BaekTestElementary.project" Active="No"/>
-  <Project Name="BaekTestArray" Path="BaekTestArray/BaekTestArray.project" Active="Yes"/>
+  <Project Name="BaekTestArray" Path="BaekTestArray/BaekTestArray.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
