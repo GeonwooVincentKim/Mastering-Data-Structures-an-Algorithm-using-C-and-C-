@@ -31,18 +31,18 @@ int main() {
 ////        printf("%d ", arrStrToInt[j] - 'a');
 ////        arrStrToInt[j % 97]++;
 //    }
-//    for (j = 0; j < sizeof(arrStrToInt); j++) {
-//        index = str[j];
-//        
-//        if (arrStrToInt[index] == -1) arrStrToInt[index] = j;
-////        else 
-////            arrStrToInt[index] = ;
-//        printf("%d ", index);
-//    }
+    for (j = 0; j < sizeof(arrStrToInt); j++) {
+        index = str[j];
+        
+        if (arrStrToInt[index] == -1) arrStrToInt[index] = j;
+//        else 
+//            arrStrToInt[index] = ;
+        printf("%d ", index);
+    }
     
-//    for (i = 0; i < 26; i++) {
-//        printf("%d ", arrStrToInt[i]);
-//    }
+    for (i = 0; i < 26; i++) {
+        printf("%d ", arrStrToInt[i]);
+    }
     
     
     
