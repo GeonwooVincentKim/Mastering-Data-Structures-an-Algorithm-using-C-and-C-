@@ -2,8 +2,9 @@
 <CodeLite_Workspace Name="WriteCode" Database="" Version="10000">
   <Project Name="ArrayPractice" Path="CodePractice/CodePractice.project" Active="No"/>
   <Project Name="BaekTest" Path="BaekTest/BaekTest.project" Active="No"/>
-  <Project Name="BaekTestElementary" Path="BaekTestElementary/BaekTestElementary.project" Active="Yes"/>
+  <Project Name="BaekTestElementary" Path="BaekTestElementary/BaekTestElementary.project" Active="No"/>
   <Project Name="BaekTestArray" Path="BaekTestArray/BaekTestArray.project" Active="No"/>
+  <Project Name="NormalPractice" Path="NormalPractice/NormalPractice.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="BaekTest" ConfigName="Debug"/>
       <Project Name="BaekTestElementary" ConfigName="Debug"/>
       <Project Name="BaekTestArray" ConfigName="Debug"/>
+      <Project Name="NormalPractice" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="BaekTest" ConfigName="Release"/>
       <Project Name="BaekTestElementary" ConfigName="Release"/>
       <Project Name="BaekTestArray" ConfigName="Release"/>
+      <Project Name="NormalPractice" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
