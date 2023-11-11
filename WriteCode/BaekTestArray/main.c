@@ -22,7 +22,6 @@ int main() {
             
             if (str[j] == 'X') count = 1;
         }
-        
         printf("%d\n", sum);
     }
     
