@@ -22,25 +22,5 @@ int main() {
     if (strcmp(aStr, bStr) > 0) printf("%s", aStr);
     else printf("%s", bStr);
     
-//    int aLen = 0, bLen = 0;
-//    aLen = strlen(aStr);
-//    bLen = strlen(bStr);
-//    
-//    int i, j, k, m;
-//    for (i = aLen - 1, k = 0; i >= 0; i--, k++)
-//        reStrA[k] = aStr[i];
-//    reStrA[i] = '\0';
-//    
-//    printf("%s\n", reStrA);
-//    
-//    for (j = bLen - 1, m = 0; j >= 0; j--, m++)
-//        reStrB[m] = bStr[j];
-//    reStrB[j] = '\0';
-//    
-//    printf("%s\n", reStrB);
-//     
-//    if (reStrA > reStrB) printf("%s", reStrA);
-//    else printf("%s", reStrB);
-    
     return 0;
 }
