@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    long long int n;
+    scanf("%lld", &n);
     
-    if (n % 7 == 1 || n % 7 == 3) printf("CY");
+    if (n % 7 == 0 || n % 7 == 2) printf("CY");
     else printf("SK");
     
     return 0;
