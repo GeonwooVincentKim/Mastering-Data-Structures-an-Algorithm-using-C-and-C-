@@ -1,23 +1,20 @@
 #include <stdio.h>
 
-int main(int argc, char **argv)
-{
-    int a, b, c;
+int main() {
+    int n;
+    scanf("%d", &n);
     
-    while (1) {
-        scanf("%d %d %d", &a, &b, &c);
-        int sqA = (a * a), sqB = (b * b), sqC = (c * c);
+    int i, k, count = 0;
+    for (i = 0; i < n; i++) {
+        scanf("%d", &k);
         
-        if (a == 0 && b == 0 && c == 0) {
-            break;
+        int j;
+        for (j = 2; j <= k; j++) {
+            if (k == j) count++;
+            if (k % j == 0) break;
         }
-        
-        if (sqA + sqB == sqC || sqB + sqC == sqA || sqA + sqC == sqB)
-            printf("right\n");
-        else printf("wrong\n");
-        
-        sqA = 0, sqB = 0, sqC = 0;
     }
     
-	return 0;
+    printf("%d", count);
+    return 0;
 }
