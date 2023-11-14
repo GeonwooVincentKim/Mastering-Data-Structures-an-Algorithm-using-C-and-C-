@@ -1,4 +1,12 @@
 [{
+  "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure\\main.c",
+  "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest\\main.c",
+  "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray\\main.c",
   "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTestArray\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
@@ -10,10 +18,6 @@
   "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\NormalPractice\\main.c",
   "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\NormalPractice",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\NormalPractice\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\NormalPractice\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
- }, {
-  "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest\\main.c",
-  "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest",
-  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\BaekTest\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }, {
   "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\CodePractice\\test.c",
   "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\CodePractice",

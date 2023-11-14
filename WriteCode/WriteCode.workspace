@@ -4,7 +4,8 @@
   <Project Name="BaekTest" Path="BaekTest/BaekTest.project" Active="No"/>
   <Project Name="BaekTestElementary" Path="BaekTestElementary/BaekTestElementary.project" Active="No"/>
   <Project Name="BaekTestArray" Path="BaekTestArray/BaekTestArray.project" Active="No"/>
-  <Project Name="NormalPractice" Path="NormalPractice/NormalPractice.project" Active="Yes"/>
+  <Project Name="NormalPractice" Path="NormalPractice/NormalPractice.project" Active="No"/>
+  <Project Name="Figure" Path="Figure/Figure.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="BaekTestElementary" ConfigName="Debug"/>
       <Project Name="BaekTestArray" ConfigName="Debug"/>
       <Project Name="NormalPractice" ConfigName="Debug"/>
+      <Project Name="Figure" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="BaekTestElementary" ConfigName="Release"/>
       <Project Name="BaekTestArray" ConfigName="Release"/>
       <Project Name="NormalPractice" ConfigName="Release"/>
+      <Project Name="Figure" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
