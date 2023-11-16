@@ -1,4 +1,8 @@
 [{
+  "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Mathemathics\\main.c",
+  "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Mathemathics",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Mathemathics\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Mathemathics\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure\\main.c",
   "directory": "E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure\\main.c -o E:\\Study\\C\\Mastering-Data-Structures-and-Algorithms-using-C-and-C++\\WriteCode\\Figure\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
