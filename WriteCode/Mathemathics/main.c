@@ -1,15 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int n, k;
-    scanf("%d %d", &n, &k);
+    int a, b;
     
-    int i, count = 0;
-    for (i = 1; i <= n; i++) {
-        if (n % i == 0) count++;
-        if (count == k) break;
+    while (1) {
+        scanf("%d %d", &a, &b);
+        int a1 = a, b1 = b;
+        if (a1 == 0 && b1 == 0) break;
+        
+        if (a1 <= b1) {
+            if (b1 % a1 == 0) printf("factor\n");
+        } else {
+            if (a1 % b1 == 0) printf("multiple\n");
+            else printf("neither\n");
+        }
     }
-    
-    if (i <= n) printf("%d", i);
-    else printf("0");
+
+    return 0;
 }
