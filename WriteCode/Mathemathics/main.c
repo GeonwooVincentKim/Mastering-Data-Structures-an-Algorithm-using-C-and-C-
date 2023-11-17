@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    long long int n, m;
+    scanf("%lld %lld", &n, &m);
     
-    if (n % 2 == 0) printf("Duck");
-    else if (n % 2 == 1) printf("Goose");
+    if (n % (m + 1) == 1) printf("Can't win");
+    else printf("Can win");
     
     return 0;
 }
