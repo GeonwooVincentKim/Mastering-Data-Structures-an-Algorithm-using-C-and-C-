@@ -1,17 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int x, y, w, h;
-    scanf("%d %d %d %d", &x, &y, &w, &h);
+    int n, m;
+    scanf("%d %d", &n, &m);
     
-    if ((w - x) > (h - y)) {
-        if ((h - y) > x) printf("%d", (x > y) ? y : x);
-        else if (h - y > y) printf("%d", (y > x) ? x : y);
-        else printf("%d", h - y);
-    } else {
-        if((w - x) > x) printf("%d", (x > y) ? y : x);
-        else if((w - x) > y) printf("%d", (y > x) ? x : y);
-        else printf("%d", w - x);
+    int i0, i1, storeValue[101], i, j, k;
+    for (i0 = 0; i0 < m; i0++) {
+        scanf("%d %d %d", &i, &j, &k);
+     
+        for (i1 = i; i1 <= j; i1++)
+            storeValue[i1] = k;
+//            printf("%d ", storeValue[i1]);
+//            printf("%d ", k);
+
+//        printf("dd \n");
+    }
+//    printf("\n");
+    for (int i2 = 1; i2 <= n; i2++) {
+        printf("%d ", storeValue[i2]);
     }
     
     return 0;
