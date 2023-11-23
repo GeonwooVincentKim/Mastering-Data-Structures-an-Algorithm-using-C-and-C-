@@ -10,12 +10,8 @@ int main() {
      
         for (i1 = i; i1 <= j; i1++)
             storeValue[i1] = k;
-//            printf("%d ", storeValue[i1]);
-//            printf("%d ", k);
-
-//        printf("dd \n");
     }
-//    printf("\n");
+
     for (int i2 = 1; i2 <= n; i2++) {
         printf("%d ", storeValue[i2]);
     }
