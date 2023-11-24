@@ -5,8 +5,8 @@
   <Project Name="BaekTestElementary" Path="BaekTestElementary/BaekTestElementary.project" Active="No"/>
   <Project Name="BaekTestArray" Path="BaekTestArray/BaekTestArray.project" Active="No"/>
   <Project Name="NormalPractice" Path="NormalPractice/NormalPractice.project" Active="No"/>
-  <Project Name="Figure" Path="Figure/Figure.project" Active="No"/>
-  <Project Name="Mathemathics" Path="Mathemathics/Mathemathics.project" Active="Yes"/>
+  <Project Name="Figure" Path="Figure/Figure.project" Active="Yes"/>
+  <Project Name="Mathemathics" Path="Mathemathics/Mathemathics.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

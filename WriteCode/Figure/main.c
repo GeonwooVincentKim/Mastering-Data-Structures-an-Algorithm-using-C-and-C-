@@ -1,27 +1,28 @@
 #include <stdio.h>
 
-int main()
-{
-    int N;
-    int max = 0;
-    float avg = 0;
+int main() {
+    int n;
+    scanf("%d", &n);
+    
+    int i, sum;
 
-    scanf("%d", &N);
-
-    int score[N];
-
-    for (int i = 0; i < N; i++) {
-        scanf("%d", &score[i]);
-        if (max < score[i]) {
-            max = score[i];
+    for (i = 0; i < n; i++) {
+        int temp = i;
+        int sum = i;
+        
+        while (temp > 0) {
+            sum += temp % 10;
+            temp /= 10;
+        }
+        
+        if (sum == n) {
+            printf("%d", i);
+            n = 0;
+            break;
         }
     }
-
-    for (int i = 0; i < N; i++) {
-        avg += (float)score[i] / max * 100;
-    }
-
-    printf("%f\n", avg / N);
-
+    
+    if (n != 0) printf("0");
+    
     return 0;
 }

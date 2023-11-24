@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Mathemathics - Debug ]----------"
-	@cd "Mathemathics" && "$(MAKE)" -f  "Mathemathics.mk"
+	@echo "----------Building project:[ Figure - Debug ]----------"
+	@cd "Figure" && "$(MAKE)" -f  "Figure.mk"
 clean:
-	@echo "----------Cleaning project:[ Mathemathics - Debug ]----------"
-	@cd "Mathemathics" && "$(MAKE)" -f  "Mathemathics.mk" clean
+	@echo "----------Cleaning project:[ Figure - Debug ]----------"
+	@cd "Figure" && "$(MAKE)" -f  "Figure.mk" clean
