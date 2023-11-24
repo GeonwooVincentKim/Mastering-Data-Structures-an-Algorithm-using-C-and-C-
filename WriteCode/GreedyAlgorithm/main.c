@@ -1,27 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, j, count = 0;
+    int n, count = 0;
     scanf("%d", &n);
     
-    int greedyList[6] = {500, 100, 50, 10, 5, 1};
-    
-    int m;
-    for (j = 0; j < n; j++) {
-        scanf("%d", &m);
-        m = 1000 - m; // change
-        
-        for (i = 0; i < sizeof(greedyList) / sizeof(int); i++) {
-    //        printf("%d ", greedyList[i]);
-//            printf("%d ", m / greedyList[i]);
-            count += m / greedyList[i];
-            
-//            printf("%d ", m % greedyList[i]);
-            m %= greedyList[i];
+    while (n > 0) {
+        if (n % 5 == 0) {
+            count++;
+            n -= 5;
+        } else {
+            count++;
+            n -= 3;
         }
-        printf("%d\n", count);
     }
-
+    
+    if (n != 0 || count == 0) printf("-1");
+    else printf("%d", count);
     
     return 0;
 }
