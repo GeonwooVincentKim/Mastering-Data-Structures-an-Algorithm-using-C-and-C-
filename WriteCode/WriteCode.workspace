@@ -5,8 +5,9 @@
   <Project Name="BaekTestElementary" Path="BaekTestElementary/BaekTestElementary.project" Active="No"/>
   <Project Name="BaekTestArray" Path="BaekTestArray/BaekTestArray.project" Active="No"/>
   <Project Name="NormalPractice" Path="NormalPractice/NormalPractice.project" Active="No"/>
-  <Project Name="Figure" Path="Figure/Figure.project" Active="Yes"/>
+  <Project Name="Figure" Path="Figure/Figure.project" Active="No"/>
   <Project Name="Mathemathics" Path="Mathemathics/Mathemathics.project" Active="No"/>
+  <Project Name="GreedyAlgorithm" Path="GreedyAlgorithm/GreedyAlgorithm.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="NormalPractice" ConfigName="Debug"/>
       <Project Name="Figure" ConfigName="Debug"/>
       <Project Name="Mathemathics" ConfigName="Debug"/>
+      <Project Name="GreedyAlgorithm" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="NormalPractice" ConfigName="Release"/>
       <Project Name="Figure" ConfigName="Release"/>
       <Project Name="Mathemathics" ConfigName="Release"/>
+      <Project Name="GreedyAlgorithm" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

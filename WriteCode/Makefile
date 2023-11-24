@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Figure - Debug ]----------"
-	@cd "Figure" && "$(MAKE)" -f  "Figure.mk"
+	@echo "----------Building project:[ GreedyAlgorithm - Debug ]----------"
+	@cd "GreedyAlgorithm" && "$(MAKE)" -f  "GreedyAlgorithm.mk"
 clean:
-	@echo "----------Cleaning project:[ Figure - Debug ]----------"
-	@cd "Figure" && "$(MAKE)" -f  "Figure.mk" clean
+	@echo "----------Cleaning project:[ GreedyAlgorithm - Debug ]----------"
+	@cd "GreedyAlgorithm" && "$(MAKE)" -f  "GreedyAlgorithm.mk" clean
