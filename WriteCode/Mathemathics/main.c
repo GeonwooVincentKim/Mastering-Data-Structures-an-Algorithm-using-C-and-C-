@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n, m;
-    scanf("%d %d", &n, &m);
+    int i, n;
+    scanf("%d", &n);
     
-    int i0, i1, storeValue[101] = {0,}, i, j, k;
-    for (i0 = 0; i0 < m; i0++) {
-        scanf("%d %d %d", &i, &j, &k);
-     
-        for (i1 = i; i1 <= j; i1++)
-            storeValue[i1] = k;
-    }
-
-    for (int i2 = 1; i2 <= n; i2++) {
-        printf("%d ", storeValue[i2]);
+    for (i = 2; i <= n; i++) {
+        if (n % i == 0) {
+            printf("%d", i);
+            n /= i;
+            
+            if (n % i == 0) printf("\n");
+            else if (n % i != 0) {
+                if (n > i) printf("\n");
+            }
+            
+            i = 1;
+        }
     }
     
     return 0;
