@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 int main() {
-//    int A[] = {2, 4, 6, 8, 10, 12, 14};  // Place 4 bytes by each location
-    int A[10] = {0};
+    int i, a[4], b[4];
+    for (i = 0; i < 3; i++) scanf("%d %d", &a[i], &b[i]);
     
-    for (int i = 0; i < 10; i++) 
-        printf("%d\n", A[i]);
+    if (a[0] == a[1]) a[3] = a[2];
+    else if (a[0] == a[2]) a[3] = a[1];
+    else a[3] = a[0];
     
-//    printf("%lu\n", sizeof(A));
-//    printf("%d\n", A[2]);
-//    printf("%d\n", A[3]);
+    if (b[0] == b[1]) b[3] = b[2];
+    else if (b[0] == b[2]) b[3] = b[1];
+    else b[3] = b[0];
+    
+    printf("%d %d\n", a[3], b[3]);
     
     return 0;
 }
